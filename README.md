@@ -1,6 +1,5 @@
-# Wallet-Risk-Scoring-From-Scratch-Compound-V2-V3-
 
-# Wallet Risk Scoring From Scratch (Compound V2/V3)
+# Wallet Risk Scoring From Scratch (Compound V2)
 
 ## Overview
 
