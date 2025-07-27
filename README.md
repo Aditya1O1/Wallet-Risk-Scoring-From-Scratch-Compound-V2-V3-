@@ -14,7 +14,8 @@ This project implements a wallet risk scoring system based on Compound V2 protoc
 - [Pipeline Steps & Implementation](#pipeline-steps--implementation)  
 - [How to Run This Project](#how-to-run-this-project)  
 - [Risk Scoring Model Details](#risk-scoring-model-details)  
-- [Results](#results)  
+- [Results](#results)
+- [Attachments](#attachments)  
 - [Notes & Future Improvements](#notes--future-improvements)  
 
 ---
@@ -103,6 +104,17 @@ This project implements a wallet risk scoring system based on Compound V2 protoc
 - **Interpretation:**
   - Riskier wallets (score~1000) = lots borrowed, little/missed repayment, concentrated or recent activity.
   - Safer wallets (score~0) = regular, fully repaid, spread out activity.
+
+---
+## Attachments
+
+The following files are included in the repository to provide full context and reproducibility of the project:
+
+- `raw_wallet_data.json` — Raw API transaction data fetched for analysis  
+- `Wallet id.xlsx` — The list of 100 Ethereum wallet addresses analyzed  
+- `wallet_risk_scores.csv` — Final output CSV containing wallet risk scores  
+- `Zeru_Round_2_Wallet_Risk_Scoring_Assignment_(1).ipynb` — Primary Jupyter/Colab notebook implementing the full pipeline  
+- `zeru_round_2_wallet_risk_scoring_assignment_.py` — Python script version of the notebook code for automation or local use
 
 ---
 
